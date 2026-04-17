@@ -33,7 +33,6 @@ import vistexLogo from "../../assets/images/vistex_logo.jpeg";
 import InsightAILogo from "../../assets/images/insightAI.png";
 import DeepSightLogo from "../../assets/images/obj_det.png";
 import CancerClassificationLogo from "../../assets/images/cancer_classification.png";
-import UAVAssistantLogo from "../../assets/images/uav_assistant.png";
 import SwiftNetLogo from "../../assets/images/swiftnet.png";
 import PlanPulseLogo from "../../assets/images/planpulse.png";
 import ClinicaLogo from "../../assets/images/clinica.png";
@@ -69,37 +68,37 @@ const PortfolioSPA = () => {
   // Updated Projects Data
   const projectsData = useMemo(
     () => [
-      {
-        title: "Clinica",
-        logo: ClinicaLogo,
-        description:
-          "Intelligent medical assistant and full-stack platform for querying and analyzing medical/EHR data via natural language, combining FHIR APIs, agentic AI reasoning, and interactive graph visualizations to deliver secure, HIPAA-aligned insights.",
-        technologies: [
-          "Next.js",
-          "FastAPI",
-          "FHIR",
-          "Neo4j",
-          "Agentic AI",
-          "Graph Visualizations",
-          "HIPAA Compliance",
-        ],
-        highlights: ["Hackathon Project", "FHIR APIs", "Agentic Reasoning"],
-      },
-      {
-        title: "DeepSight",
-        logo: DeepSightLogo,
-        description:
-          "Building advanced architectures like Mask R-CNN, FC-DenseNet, and Mask2Former for context-aware image segmentation to improve mAP accuracy, boundary precision, and pixel-level performance.",
-        technologies: [
-          "PyTorch",
-          "Mask R-CNN",
-          "FC-DenseNet",
-          "Mask2Former",
-          "Transfer Learning",
-          "Computer Vision",
-        ],
-        highlights: ["Instance Segmentation", "Context-Aware Modeling", "High mAP Accuracy"],
-      },
+      // {
+      //   title: "Clinica",
+      //   logo: ClinicaLogo,
+      //   description:
+      //     "Intelligent medical assistant and full-stack platform for querying and analyzing medical/EHR data via natural language, combining FHIR APIs, agentic AI reasoning, and interactive graph visualizations to deliver secure, HIPAA-aligned insights.",
+      //   technologies: [
+      //     "Next.js",
+      //     "FastAPI",
+      //     "FHIR",
+      //     "Neo4j",
+      //     "Agentic AI",
+      //     "Graph Visualizations",
+      //     "HIPAA Compliance",
+      //   ],
+      //   highlights: ["Hackathon Project", "FHIR APIs", "Agentic Reasoning"],
+      // },
+      // {
+      //   title: "DeepSight",
+      //   logo: DeepSightLogo,
+      //   description:
+      //     "Building advanced architectures like Mask R-CNN, FC-DenseNet, and Mask2Former for context-aware image segmentation to improve mAP accuracy, boundary precision, and pixel-level performance.",
+      //   technologies: [
+      //     "PyTorch",
+      //     "Mask R-CNN",
+      //     "FC-DenseNet",
+      //     "Mask2Former",
+      //     "Transfer Learning",
+      //     "Computer Vision",
+      //   ],
+      //   highlights: ["Instance Segmentation", "Context-Aware Modeling", "High mAP Accuracy"],
+      // },
       {
         title: "Cancer Classification using CNN",
         logo: CancerClassificationLogo,
@@ -114,23 +113,6 @@ const PortfolioSPA = () => {
           "Deep Learning",
         ],
         highlights: ["Medical AI", "Diagnostic Accuracy", "U-Net Architecture"],
-      },
-      {
-        title: "UAV Telemetry Assistant (Volunteer Project with ArenaAI)",
-        logo: UAVAssistantLogo,
-        description:
-          "Designed and developed a multi-agent LangGraph system enabling natural-language questions on any flight detail with both short and long-term memory, capable of reasoning over MAVLink log data to explain flight events and provide real-time insights.",
-        technologies: [
-          "FastAPI",
-          "LangChain",
-          "LangGraph",
-          "Multi-Agent Systems",
-          "PyMavlink",
-          "Natural Language Processing",
-          "Generative AI",
-          "Prompt Engineering",
-        ],
-        highlights: ["Multi-Agent Architecture", "Long-term Memory", "Real-time Analysis"],
       },
       {
         title: "InSightAI (Multimodal VQA)",
